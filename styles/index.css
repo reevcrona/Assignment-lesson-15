@@ -12,3 +12,12 @@
 .carousel-caption > h5{
     font-size: 2rem;
 }
+.carousel-item > .carousel-caption{
+    bottom: 18rem;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    bottom: 0;
+    right: 0;
+    transform: translate(-50%,-50%);
+}
